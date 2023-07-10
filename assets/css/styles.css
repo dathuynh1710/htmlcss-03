@@ -448,11 +448,16 @@ a {
     overflow: hidden;
 }
 
+.member-item__img-bg:hover .member-item__thumb {
+    transform: scale(1.2);
+}
+
 .member-item__thumb {
     display: block;
     max-width: 100%;
     object-fit: cover;
     height: 290px;
+    transition: 1.5s;
 }
 
 .member-item__name {
