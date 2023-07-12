@@ -504,3 +504,45 @@ a {
 .member__control-icon {
     rotate: 180deg;
 }
+
+/* Download */
+.download {
+    margin-top: 180px;
+}
+
+.download__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    background: #2e80ce;
+    border-radius: 4px;
+    height: 427px;
+}
+
+.download__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.download__content {
+    max-width: 586px;
+}
+
+.download__title,
+.download__desc {
+    color: #fff;
+}
+
+.download__title {
+    max-width: 489px;
+}
+
+.download__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
+}
